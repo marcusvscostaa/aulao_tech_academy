@@ -8,7 +8,6 @@
 
 html, 
 body{
-    height: 100vh;
     font-family: "Source Sans Pro", 'Times New Roman';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -90,9 +89,15 @@ form input{
 form [type="submit"]{
     background-color: #0080ed;
     color: white;
+    width: 150px;
+    padding-left: 0px;
+    font-size: 16px;
+    height: 40px;
 }
 form [type="submit"]:hover{
     cursor: pointer;
+    background-color: rgba(0, 128, 237, 0.75);
+    transform: translateY(-2px);
 }
 main.container-main img{
     width:600px;
@@ -131,7 +136,7 @@ main.container-main img{
     overflow: hidden;
     position: relative;
     border-radius: 10px 10px 0px 0px;
-
+    height: 225px;
 }
 
 .image img{
