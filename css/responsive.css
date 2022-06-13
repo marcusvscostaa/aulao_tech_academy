@@ -140,7 +140,7 @@
         height: 100%;
         align-items: none;
         display: block;
-        padding: 50px;
+        padding: 20px;
         padding-top: 40px;
         border: none;
         text-align: left;
@@ -149,7 +149,7 @@
     }
     h2.textContato{
     
-        font-size: 40px;
+        font-size: 30px;
         
     }
     .divMaps>img{
