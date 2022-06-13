@@ -274,7 +274,6 @@ textarea:focus{
     padding: 20px;
     padding-top: 40px;
     width: 100%;
-    border: 5px solid #0080ed;
     border-radius: 0px 10px 10px 0px;
     background-color: #0080ed;
     color: white;
@@ -301,11 +300,4 @@ div.campoRedes{
     margin-top: 25px;
     position: relative;
     bottom: 0;
-}
-.divMaps>img{
-    width: 1400px; 
-    box-shadow: none; 
-    transform: none; 
-    cursor:auto; 
-    border-radius: 10px;
 }
