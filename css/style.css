@@ -284,10 +284,10 @@ textarea:focus{
     justify-content: baseline;
     margin-top: 20px;
 }
-img{
+.redesSociais>img{
     margin: 5px;
 }
-img:hover{
+.redesSociais>img:hover{
     transform: translateY(-4px);
     box-shadow: 2px 2px 4px -2px black;
     cursor: pointer;
@@ -301,4 +301,11 @@ div.campoRedes{
     margin-top: 25px;
     position: relative;
     bottom: 0;
+}
+.divMaps>img{
+    width: 1400px; 
+    box-shadow: none; 
+    transform: none; 
+    cursor:auto; 
+    border-radius: 10px;
 }

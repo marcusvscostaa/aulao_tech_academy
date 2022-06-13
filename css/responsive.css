@@ -152,5 +152,8 @@
         font-size: 40px;
         
     }
+    .divMaps>img{
+        width: 100%;
+    }
         
 }
