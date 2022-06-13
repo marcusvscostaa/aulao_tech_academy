@@ -11,6 +11,7 @@
     div h3{
         margin-left: 50px;
     }
+    
     form{
         display: flex;
         align-items: center;
@@ -42,7 +43,7 @@
         justify-content: center;
         align-items: center;
         left: 100%;
-        transform: translatex(1000vw);
+        transform: translatex(100vw);
         transition: 0.5s ease transform;
     }
 
@@ -114,6 +115,42 @@
     #checkbox-menu:checked ~ nav .menu{
         transform: translateX(-100vw);
         transition: 0.5s ease transform;
+        max-width: 100vw;
     }
+    #formulario{
+        display: block;
+        height: 90%;
+        width: 90%;
+        margin: 40px;
+        
+    }
+    .adressContact{
+        margin: 0;
+        padding: 0;
+    }
+    .boxContact{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        border-radius: 0px 0px 10px 10px;
+        
+    }
+    .formContato{
+        width: 100%;
+        height: 100%;
+        align-items: none;
+        display: block;
+        padding: 50px;
+        padding-top: 40px;
+        border: none;
+        text-align: left;
+        border-radius: 10px 10px 0px 0px;
+       
+    }
+    h2.textContato{
     
+        font-size: 40px;
+        
+    }
+        
 }
